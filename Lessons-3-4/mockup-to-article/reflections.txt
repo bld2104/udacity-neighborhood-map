@@ -1,0 +1,20 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+What new skills have you learned?
+None yet - these are all concepts I am already extremely familiar with.
+
+What has been easy?
+Everything so far if I'm being honest. This is far below my current skill level, but I'm still happy to be participating and imagine when we get to the JavaScript part of the course I will start learning new material. 
+
+What has been difficult?
+Truly nothing yet. I'd admit it if there were something!
+
+How have you used the problem solving strategies from the first project to overcome challenges so far?
+This isn't applicable yet since I haven't had challenges to overcome, but I think that the HTML verification tool was neat and something I should use more often in the future. I also liked the recommendations for new text editors. I've been using Sublime but those pesky popups do get annoying!

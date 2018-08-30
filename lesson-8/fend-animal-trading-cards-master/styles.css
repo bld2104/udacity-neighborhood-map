@@ -1,0 +1,47 @@
+/* add your CSS here */
+
+#fact{
+  font-style: italic;
+
+}
+
+.animal-labels{
+
+  font-weight:bold;
+}
+
+h3{
+  font-size:24px;
+}
+.animallist{
+  list-style-type: none;
+  padding-left:0;
+}
+
+#animalborder{
+  border: 1px solid #D3D3D3;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:15px;
+  padding-top:15px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(179,179,179,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(179,179,179,1);
+  box-shadow: 10px 10px 5px 0px rgba(179,179,179,1);
+
+
+}
+.imgcenter{
+    text-align:center;
+}
+
+#border2{
+border: 1px solid #D3D3D3;
+padding-left:15px;
+padding-right:15px;
+padding-bottom:15px;
+padding-top:15px;
+}
+
+.animalpadding{
+  padding-bottom:10px;
+}
