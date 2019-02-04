@@ -13,10 +13,32 @@
         font-size: 12px;
       }
       h1 {
-        color: #525454;
-        font-size: 22px;
+        color: #19a0db;
+        font-size: 38pt;
         margin: 0 0 10px 0;
         text-align: center;
+      }
+        h2 {
+        color: #e85113;
+        font-size: 32pt;
+        margin: 0 0 10px 0;
+        
+      }
+        h3 {
+        color: #efe934;
+        font-size: 24pt;
+        margin: 0 0 10px 0;
+        
+      }
+      h4{
+        color: #207C1A;
+        font-size: 14pt;
+        margin: 0 0 10px 0;
+        
+      }
+
+      p{
+        color: ;
       }
       #hide-listings,
       #show-listings {
@@ -54,6 +76,8 @@
     @media only screen and (max-width: 720px) {
 .options-box {
         background: #fff;
+        position: absolute;
+        top: 0;
         overflow-y: scroll;
         height: 50%;
         line-height: 35px;

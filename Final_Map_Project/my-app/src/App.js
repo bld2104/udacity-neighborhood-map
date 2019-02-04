@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import MapThing from './FourSquare.js';
+import ListThing from './ListThing.js';
 import './style.css'
 
 
@@ -30,39 +31,12 @@ class FourSquare extends React.Component {
 
 render() {
     return (
+
     <div>
-      <div className="options-box">
-        <h1>Barb's Favorite Places</h1>
-        <div>
-                <div className="filter-options" tabindex="0" aria-label="Filter Results">
-        <h2>Filter Results</h2>
-        <select id="locations-select" name="locations" onchange="updateLocations()" aria-label="Select Location">
-          <option value="all">All Locations</option>
-          <option value="top">Top 3 Locations</option>
-          <option value="bottom">Bottom 2 Locations</option>
-        </select>
-      </div>
- <ul id="locations-list" tabindex="0" aria-label="Locations List"></ul>
-        </div>
-      </div>
-      <div id="map"></div>
     
-
-    
-
-
-<script src="main.js" ></script>
-<script src="foursquare.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDktdBRgynxsyoSnHm9onezl_C2bZfch6c&v=3&callback=initMap">
-    </script>
-
-      <div>
+      
         <MapThing locations={this.state.locations} />
-      </div>
+      
       </div>
     )
   }
